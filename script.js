@@ -11,7 +11,8 @@
 
         for (var i = 0; i < checkboxes.length && checks < MAX; i++) {
             var checkbox = checkboxes[i];
-            if ((checkbox.name + checkbox.id).toLowerCase().indexOf("remember") > -1) {
+            var text = (checkbox.name + checkbox.id).toLowerCase();
+            if (text.indexOf("remember") > -1 || text.indexOf("keep") > -1 || text.indexOf("persist") > -1) {
                 checkbox.checked = true;
                 checks++;
             }
