@@ -3,7 +3,7 @@
 
   "name": "always remember me",
   "description": "always check the 'remember me' box when entering credentials.",
-  "version": "1.0.1",
+  "version": "1.0.2",
 
   "icons": {
     "16": "images/logo-16.png",

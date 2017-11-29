@@ -33,4 +33,8 @@
     }
 
     remember();
+
+    document.addEventListener('page:load', remember);
+    document.addEventListener('ready', remember);
+    document.addEventListener('turbolinks:load', remember);
 })();
